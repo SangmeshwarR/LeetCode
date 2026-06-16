@@ -2,6 +2,7 @@
 
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]: # pyright: ignore[reportUndefinedVariable]
+        
         prevMap = {} #hashmap to contain all previous elements than the one being iterated currently
         for i,n in enumerate(nums): #stores key,value pairs while iterating
             diff = target - n 

@@ -2,6 +2,7 @@
 
 class Solution:
     def isValid(self, s: str) -> bool:
+        
         i=0
         a=[]
         for i in range(len(s)):

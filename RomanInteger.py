@@ -2,6 +2,7 @@
 
 class Solution:
     def romanToInt(self, s: str) -> int:
+        
         numMap = {
             "I":1,
             "V":5,
