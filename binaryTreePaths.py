@@ -1,3 +1,5 @@
+# 257. Binary Tree Paths
+
 class Solution(object):
     def binaryTreePaths(self, root):
         res = []
